@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess Game</title>
+</head>
+<body>
+    <h1 class="main-header">The Guess Game</h1>
+    <h3 class="slogan">Try Your Luck</h3>
+    <hr>
+    <form action="">
+
+      <div class="hint-box">
+        <h2>HINT</h2>
+      <div class="hints" id="hint">Enter a number between 1 and 100</div>
+      <hr>
+    </div>
+
+      <div>
+        <h2>Enter Your Guess</h2>
+        <input type="number" id="input">
+      </div>
+
+      <div>
+
+        <div class="life-box">
+        <h4>Lives Remaining</h4>
+        <h2 class="life" id="lives">10</h2>
+        </div>
+        
+        <div class="btn">
+        <button id="newBtn">NEW GAME</button>
+        <div class="space"></div>
+        <button type="button" id="conBtn">CONFIRM</button>
+      </div>
+      
+      </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
